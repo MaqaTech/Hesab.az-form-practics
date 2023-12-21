@@ -130,7 +130,7 @@
 #form .eyeoff {
   position: absolute;
   cursor: pointer;
-  left: 10px;
+  right: 10px;
   top: 13px;
 }
 #form .hidden {
