@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/register.css">
+    <title>Hesab.az</title>
+</head>
+<body>
+    <form id="form" >
+        <div class="image" >
+          <img src="./signup_az.png" alt="signimage">
+        </div>
+        <div class="signup" >
+           <div class="link" >
+             <a class="prev" href="./index.html">
+                 <img src="./icons/back_arrow.svg" alt="left">
+                 
+             </a>
+             <span>Geriyə</span>
+           </div>
+       <div class="line" >
+          <h1 class="text" >Qeydiyyatdan keç</h1>
+          <p class="text_p" >Məlumatlarınızı daxil edin</p>
+          <div>
+          <label for="tel">Mobil nömrə
+         </label>
+       <div class="rltv">
+          <input formcontrolname="mobileNumber" type="number" id="username" placeholder="+994 001234567" >
+          <img class="phone_icon" src="./icons/phone.svg" alt="phone">
+       </div>
+       <div id="phonewarning" ></div>
+        </div>
+        <div>
+             <label for="email">E-mail</label>
+            <div class="rltv">
+                 <input type="email" id="mail" placeholder="hesab@hesab.az">
+                 <img class="mail_icon" src="./icons/mail.svg" alt="">
+            </div>
+            <div id="mailwarning" ></div>
+       </div>
+
+        <p class="chk" href="">
+            <input type="checkbox">
+            "Davam et" düyməsini klik edərək, siz <a href="">Hesab.az Qaydaları</a> və Şərtləri ilə  razı olduğunuzu bildirmiş olursunuz</p>
+        
+        <button type="submit" class="btn" href=""  >Daxil ol</button>
+        </div>
+    </form>
+    <script src="./style/js/register.js" ></script>
+</body>
+</html>

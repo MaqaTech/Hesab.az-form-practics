@@ -1,0 +1,149 @@
+@import './mixins';
+*{
+    font-family: "Proxima Nova", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef1f4;
+}
+
+#form{
+display: flex;
+justify-content: space-evenly;
+margin-top: 3%;
+.image{  
+    margin-left: 10%;
+    img{
+        width: 75%;
+    }
+        @include tablet{
+            display: none;
+        }
+}
+
+.btn{
+    padding: 14px 170px ;
+    border-radius: 8px;
+    background-color: #1a75ff;
+    border: 1px solid transparent;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 2vw;
+    cursor: pointer;
+    margin-bottom: 5%;
+    transition: .3s all ease;
+    &:hover{
+        transform: scale(1.03);
+    }
+    
+}
+#username{
+    padding: 0 0 0 56px;
+    max-height: 56px;
+    height: 6vh;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 87%;
+    background-color: transparent;
+    position: relative;
+}
+#pass{
+    padding: 0 0 0 56px;
+    max-height: 56px;
+    height: 6vh;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 87%;
+    background-color: transparent;
+    position: relative;
+}
+.btn_regisrt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f8fafc;
+    border: 1px solid #0d96ff;
+    width: 95%;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0d96ff;
+    height: 35px ;
+    transition: .3s all ease;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        background-color: #1a75ff;
+        color: #fff;
+    }
+}
+.psw{
+    color: #0d96ff;
+    margin-left: 30%;
+}
+.chk{
+    text-decoration: none;
+    color: #313335;
+    margin-left: 5px;
+}
+.signup{
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 30%;
+}
+.text{
+    font-size: 45px;
+    color: #39464e;
+}
+.text_p{
+    color: #64748b;
+}
+.line{
+    line-height: 50px;
+    
+}
+.btns{
+    line-height:60px;
+    width: 100%;
+    
+}
+.lock{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.mail_icon{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+.eye{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 13px;
+}
+.eyeoff{
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 13px;
+
+}
+.hidden{
+    display: none;
+    
+}
+.rltv{
+    position: relative;
+    
+}
+
+
+}

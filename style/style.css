@@ -1,0 +1,141 @@
+* {
+  font-family: "Proxima Nova", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eef1f4;
+}
+
+#form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+#form .image {
+  margin-left: 10%;
+}
+#form .image img {
+  width: 75%;
+}
+@media (max-width: 767px) {
+  #form .image {
+    display: none;
+  }
+}
+#form .btn {
+  padding: 14px 170px;
+  border-radius: 8px;
+  background-color: #1a75ff;
+  border: 1px solid transparent;
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 2vw;
+  cursor: pointer;
+  margin-bottom: 5%;
+  transition: 0.3s all ease;
+}
+#form .btn:hover {
+  transform: scale(1.03);
+}
+#form #username {
+  padding: 0 0 0 56px;
+  max-height: 56px;
+  height: 6vh;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 87%;
+  background-color: transparent;
+  position: relative;
+}
+#form #pass {
+  padding: 0 0 0 56px;
+  max-height: 56px;
+  height: 6vh;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 87%;
+  background-color: transparent;
+  position: relative;
+}
+#form .btn_regisrt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  border: 1px solid #0d96ff;
+  width: 95%;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0d96ff;
+  height: 35px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+#form .btn_regisrt:hover {
+  background-color: #1a75ff;
+  color: #fff;
+}
+#form .psw {
+  color: #0d96ff;
+  margin-left: 30%;
+}
+#form .chk {
+  text-decoration: none;
+  color: #313335;
+  margin-left: 5px;
+}
+#form .signup {
+  margin-right: 10%;
+  margin-top: 5%;
+  width: 30%;
+}
+#form .text {
+  font-size: 45px;
+  color: #39464e;
+}
+#form .text_p {
+  color: #64748b;
+}
+#form .line {
+  line-height: 50px;
+}
+#form .btns {
+  line-height: 60px;
+  width: 100%;
+}
+#form .lock {
+  position: absolute;
+  left: 10px;
+  top: 13px;
+}
+#form .mail_icon {
+  position: absolute;
+  left: 10px;
+  top: 13px;
+}
+#form .eye {
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 13px;
+}
+#form .eyeoff {
+  position: absolute;
+  cursor: pointer;
+  left: 10px;
+  top: 13px;
+}
+#form .hidden {
+  display: none;
+}
+#form .rltv {
+  position: relative;
+}/*# sourceMappingURL=style.css.map */
